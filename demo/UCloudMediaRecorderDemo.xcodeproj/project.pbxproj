@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B2D678621DE29F1600317C0A /* libUCloudMediaRecorder.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E9A752C11C86CE040043DF1B /* libUCloudMediaRecorder.a */; };
 		C1F47A771CD9D01000563409 /* bg_screen_shot_complete.png in Resources */ = {isa = PBXBuildFile; fileRef = C1F47A741CD9D01000563409 /* bg_screen_shot_complete.png */; };
 		C1F47A781CD9D01000563409 /* bg_screen_shot_complete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C1F47A751CD9D01000563409 /* bg_screen_shot_complete@2x.png */; };
 		C1F47A791CD9D01000563409 /* bg_screen_shot_complete@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C1F47A761CD9D01000563409 /* bg_screen_shot_complete@3x.png */; };
@@ -57,7 +58,6 @@
 		E966277C1BE75E5D00FA5B03 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E966277B1BE75E5D00FA5B03 /* CoreMedia.framework */; };
 		E96F3D8A1C17FE410099718A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E96F3D891C17FE410099718A /* Default-568h@2x.png */; };
 		E9A752C21C86CE040043DF1B /* FilterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E9A752C01C86CE040043DF1B /* FilterManager.m */; };
-		E9A752C31C86CE040043DF1B /* libUCloudMediaRecorder.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E9A752C11C86CE040043DF1B /* libUCloudMediaRecorder.a */; };
 		E9ED2EDF1C0C551100BA59A6 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E9ED2EDE1C0C551100BA59A6 /* libc++.tbd */; };
 		E9ED2EE11C0C551900BA59A6 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E9ED2EE01C0C551900BA59A6 /* libz.tbd */; };
 /* End PBXBuildFile section */
@@ -76,6 +76,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B2D6785B1DDEB54800317C0A /* libUCloudMediaRecorder.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libUCloudMediaRecorder.a; path = "../../../workingSpace/ulive-ios-sdk-v1/build/Release-iphoneos/libUCloudMediaRecorder.a"; sourceTree = "<group>"; };
+		B2D6785D1DDEB56C00317C0A /* libUCloudMediaRecorder.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libUCloudMediaRecorder.a; path = "../../../../../Library/Developer/Xcode/DerivedData/Untitled-gvxtnjzzrkdzflbpzircnnnixxsb/Build/Products/Debug-iphoneos/libUCloudMediaRecorder.a"; sourceTree = "<group>"; };
 		C15B45121DB0D9D8003B5A6E /* UCloudRecorderTypeDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UCloudRecorderTypeDef.h; sourceTree = "<group>"; };
 		C1F47A741CD9D01000563409 /* bg_screen_shot_complete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_screen_shot_complete.png; sourceTree = "<group>"; };
 		C1F47A751CD9D01000563409 /* bg_screen_shot_complete@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg_screen_shot_complete@2x.png"; sourceTree = "<group>"; };
@@ -336,9 +338,9 @@
 				E9271D451C3CC752000DBADF /* QuartzCore.framework in Frameworks */,
 				E9271D431C3CC749000DBADF /* OpenGLES.framework in Frameworks */,
 				E9271D411C3CC735000DBADF /* CoreVideo.framework in Frameworks */,
-				E9A752C31C86CE040043DF1B /* libUCloudMediaRecorder.a in Frameworks */,
 				E9ED2EE11C0C551900BA59A6 /* libz.tbd in Frameworks */,
 				E9ED2EDF1C0C551100BA59A6 /* libc++.tbd in Frameworks */,
+				B2D678621DE29F1600317C0A /* libUCloudMediaRecorder.a in Frameworks */,
 				E966277C1BE75E5D00FA5B03 /* CoreMedia.framework in Frameworks */,
 				E966277A1BE75E5000FA5B03 /* AVFoundation.framework in Frameworks */,
 				E9078ED71C35197900503011 /* libUCloudMediaPlayer.a in Frameworks */,
@@ -443,6 +445,8 @@
 		E93E8F451CC9D16B0076EC23 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B2D6785D1DDEB56C00317C0A /* libUCloudMediaRecorder.a */,
+				B2D6785B1DDEB54800317C0A /* libUCloudMediaRecorder.a */,
 				E9271D441C3CC752000DBADF /* QuartzCore.framework */,
 				E9271D421C3CC749000DBADF /* OpenGLES.framework */,
 				E9271D401C3CC735000DBADF /* CoreVideo.framework */,
